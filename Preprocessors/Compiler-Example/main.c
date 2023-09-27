@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 #define MAX 1000
+#define _DATE_
 
 int main (void) {
    
