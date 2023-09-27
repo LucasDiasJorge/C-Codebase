@@ -1,0 +1,2 @@
+int GLOB = 16; // variável global
+int func (int e); // protótipo de função
