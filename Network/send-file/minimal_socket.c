@@ -4,6 +4,7 @@
 #include <sys/sendfile.h>
 #include <unistd.h>
 #include <netinet/in.h>
+#include <stdio.h>
 
 void main() {
     int s = socket(AF_INET, SOCK_STREAM, 0);
