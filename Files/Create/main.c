@@ -38,8 +38,8 @@ int main()
 
 
     /* Write data to file */
-    fputs(data, fPtr);
-
+    fprintf(fPtr,data);
+    
 
     /* Close file to save file data */
     fclose(fPtr);
