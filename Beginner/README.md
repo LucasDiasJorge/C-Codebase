@@ -1,3 +1,3 @@
 # Beginner stuffs
 
-_Function that returns a "string" [site](https://www.tutorialspoint.com/cprogramming/c_return_arrays_from_function.htm)_
+_Function that returns a "string" [site](https://flaviocopes.com/c-return-string/)_
