@@ -2,6 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <stdbool.h>
 
 #define PORT 8080
 
@@ -37,8 +38,37 @@ int hello_handler(void *cls, struct MHD_Connection *connection,
     }
 }
 
-int main() {
+bool debug = false;
+
+void debugging(char *message) {
+    if (debug) {
+        printf("\tLog: %s;\n", message);
+    }
+}
+
+void init() {
+    if (debug) {
+        printf("File: %s\n", __FILE__);
+        printf("Date: %s\n", __DATE__);
+        printf("Time: %s\n", __TIME__);
+        printf("Line: %d\n", __LINE__);
+        printf("ANSI: %d\n", __STDC__);
+    }
+}
+
+int main(int argc, char *argv[]) {
+
+    if (argc >= 2 && strcmp("--debug", argv[1]) == 0) {
+        debug = true;
+    }
+
+    init();
+
+    debugging("Instancing struct MHD_Daemon as *daemon");
+
     struct MHD_Daemon *daemon;
+
+    debugging("Starting daemon in PORT: 8080, using \"hello_handler\" function");
 
     daemon = MHD_start_daemon(MHD_USE_SELECT_INTERNALLY, PORT, NULL, NULL,
                               &hello_handler, NULL, MHD_OPTION_END);
@@ -47,8 +77,15 @@ int main() {
         return 1;
     }
 
+    debugging("Press \"Enter\" to stop the server");
+
     getchar(); // Press Enter to stop the server
 
+    debugging("Stopping server");
+
     MHD_stop_daemon(daemon);
+
+    debugging("Exiting");
+
     return 0;
 }
