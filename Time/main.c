@@ -35,11 +35,22 @@ time_t convertToTimestamp(const char *isoString) {
     return timestamp;
 }
 
+const char* time_now(){
+    return __TIME__;
+}
+
+const char* date_today(){
+    return __DATE__;
+}
+
 int main() {
+
     const char *isoString = "2024-01-16T20:08:11.427442398Z";
     time_t timestamp = convertToTimestamp(isoString);
-
+    
     printf("Timestamp: %ld\n", timestamp);
+    printf("Time Now: %s\n", time_now());
+    printf("Date Today: %s\n", date_today());
 
     return 0;
 }
