@@ -1,0 +1,1 @@
+gcc main.c -o executable -lssl -lcrypto
