@@ -3,7 +3,7 @@
 #include <string.h>
 #include <curl/curl.h>
 
-#define MAX_RESPONSE_SIZE 10000
+#define MAX_RESPONSE_SIZE 100000
 
 // Function to parse the response string and initialize the variable
 void initialize_variable(char *response) {
@@ -41,12 +41,28 @@ int main() {
     curl = curl_easy_init();
     if (curl) {
         char response[MAX_RESPONSE_SIZE] = "";
+        // Get current time
+        time_t timeNow = time(NULL);
 
         // URL of the GET request
-        char url[] = "http://localhost:8891/api/v2/event/items/001625152b59?lastModifiedDate=0";
+        char url[] = "http://localhost:8891/api/v2/event/items/001625152b59?lastModifiedDate=";
 
+        // Calculate the length of the URL string and time string
+        int url_length = sizeof(url) - 1; // excluding null terminator
+        int time_length = 20; // assuming 20 characters is enough to represent the time_t
+
+        // Calculate the total length required for the complete URL
+        int total_length = url_length + time_length;
+
+        // Create a buffer to hold the complete URL
+        char complete_url[total_length + 1]; // +1 for null terminator
+
+        // Format the complete URL string
+        snprintf(complete_url, sizeof(complete_url), "%s%d", url, (int)timeNow);
+
+        // Print 
         // Configuration of the request
-        curl_easy_setopt(curl, CURLOPT_URL, url);
+        curl_easy_setopt(curl, CURLOPT_URL, complete_url);
         curl_easy_setopt(curl, CURLOPT_USERPWD, "user:pass");
         curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, write_callback);
         curl_easy_setopt(curl, CURLOPT_WRITEDATA, response);
