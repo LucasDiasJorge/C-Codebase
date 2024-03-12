@@ -47,7 +47,7 @@ int main() {
     curl = curl_easy_init();
     if (curl) {
 
-char response[MAX_RESPONSE_SIZE] = "";
+        char response[MAX_RESPONSE_SIZE] = "";
         // Get current time
         time_t timeNow = time(NULL);
 
