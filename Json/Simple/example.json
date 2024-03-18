@@ -1,0 +1,6 @@
+{
+    "timestamp": 1710783882099,
+    "status": 200,
+    "error": "Internal Server Error",
+    "path": "/api/v2/core/ping"
+}
