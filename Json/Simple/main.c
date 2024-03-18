@@ -20,6 +20,8 @@ int main() {
             if (sscanf(buffer, "%*[^:]:%d", &status) == 1) {
                 break;
             }
+        } else{
+            perror("Key was not found");
         }
     }
 
