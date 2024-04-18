@@ -14,6 +14,8 @@
 
 Overall, memory pooling can be a valuable technique for optimizing memory usage, improving performance, and ensuring predictable behavior in a wide range of real-world applications. However, it's important to carefully design and implement memory pooling strategies based on the specific requirements and constraints of your application.
 
+### In real world
 
+One real-world application where memory pooling can be beneficial is in server applications that handle multiple client connections concurrently, such as a web server or a chat server. In such applications, each client connection may require allocating and deallocating memory for handling incoming requests or messages.
 
-
+Let's consider the example of a chat server. The server needs to manage memory for storing messages received from clients, and each client may send messages at unpredictable intervals. By using memory pooling, the server can efficiently manage memory for storing incoming messages without incurring the overhead of dynamic memory allocation and deallocation for each message.
