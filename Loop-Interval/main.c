@@ -12,6 +12,7 @@ int main() {
 
         if (send_time <= now){
             // function here
+            printf("Function Call example\n");
             send_time = time(NULL) + LOOP_TIME;
         }
         now = time(NULL);
