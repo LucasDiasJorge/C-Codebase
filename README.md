@@ -25,6 +25,9 @@ Cada diretório contém:
 - **Goto**: Uso do comando goto (com explicações sobre quando evitar)
 - **Strings**: Manipulação básica de strings
 
+### 🤖 **Automatus** - Autômatos Finitos (DFA)
+- Exemplo de autômato finito determinístico para reconhecer tokens/palavras (por exemplo: `for`, `float`, `char`)
+
 ### 🧠 **Memory** - Gerenciamento de Memória
 - **Malloc**: Implementação personalizada de alocador de memória
 - **Memory-Allocation**: Técnicas de alocação dinâmica
@@ -77,6 +80,9 @@ Cada diretório contém:
   - [Inverter Número](Beginner/inverter-numero-README.md) - Algoritmos matemáticos básicos
   - [Goto](Beginner/Goto/) - Comando goto e suas limitações
   - [Strings](Beginner/Strings/) - Manipulação básica de strings
+
+### 🤖 Autômatos
+- **[Automatus/](Automatus/)** - Autômato finito determinístico (DFA) em C
 
 ### 🧠 Gerenciamento de Memória
 - **[Memory/](Memory/)** - Técnicas avançadas de gerenciamento de memória
