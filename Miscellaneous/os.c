@@ -50,7 +50,7 @@ int main()
 
 // Checking for Android OS with
 // __ANDROID__ macro
-#elif__ANDROID__
+#elif __ANDROID__
 	printf("Hey Geek it seems that you"
 		"are working on an android OS.\n");
 

@@ -41,8 +41,9 @@ State next_state(State actual_state, char input_char){
             if(input_char == 'a') return Q3;
             break;
         default:
-
+            return ERROR;
     }
+    return ERROR;
 }
 
 void proccess_string(char input_string[]){

@@ -5,9 +5,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include "tag.h"
-
-#define MAX_EPC 24
-#define TABLE_SIZE 1000000
+#include "hashtable.h"
 
 tag * hash_table[TABLE_SIZE];
 

@@ -1,6 +1,55 @@
 # 📚 C Programming Educational Codebase
 
+[![Language](https://img.shields.io/badge/Language-C-blue.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+
 Este repositório contém uma coleção educacional abrangente de programas e exemplos em linguagem C, cobrindo conceitos fundamentais e avançados da programação em C. O código está organizado didaticamente em diferentes diretórios, cada um focando em tópicos específicos como gerenciamento de memória, manipulação de arquivos, programação de rede, estruturas de dados e muito mais.
+
+---
+
+## 📋 Índice Completo
+
+| # | Módulo | Descrição | Dificuldade |
+|---|--------|-----------|-------------|
+| 1 | [Assembly](Assembly/) | Integração C/Assembly | ⭐⭐⭐⭐ |
+| 2 | [Automatus](Automatus/) | Autômatos finitos (DFA) | ⭐⭐⭐ |
+| 3 | [Backend](Backend/) | Conceitos de backend | ⭐⭐ |
+| 4 | [Beginner](Beginner/) | Conceitos básicos | ⭐ |
+| 5 | [Colored-Output](Colored-Output/) | Terminal colorido | ⭐⭐ |
+| 6 | [Compare](Compare/) | Funções de comparação | ⭐ |
+| 7 | [Conversor-pdf](Conversor-pdf/) | Conversão de documentos | ⭐⭐ |
+| 8 | [Debugging](Debugging/) | Técnicas de debug | ⭐⭐ |
+| 9 | [Dir-return](Dir-return/) | Retorno de diretórios | ⭐⭐ |
+| 10 | [DS-in-bin](DS-in-bin/) | Estruturas em binário | ⭐⭐⭐ |
+| 11 | [Easy-dir](Easy-dir/) | Manipulação de diretórios | ⭐⭐ |
+| 12 | [Enum](Enum/) | Enumerações | ⭐⭐ |
+| 13 | [Event-Driven-Programming](Event-Driven-Programming/) | Programação orientada a eventos | ⭐⭐⭐ |
+| 14 | [Files](Files/) | Manipulação de arquivos | ⭐⭐ |
+| 15 | [Function](Function/) | Funções avançadas | ⭐⭐ |
+| 16 | [Garbage-Collector](Garbage-Collector/) | Coletor de lixo | ⭐⭐⭐⭐ |
+| 17 | [GCC](GCC/) | Otimizações do compilador | ⭐⭐⭐ |
+| 18 | [Hash](Hash/) | Algoritmos de hash | ⭐⭐⭐ |
+| 19 | [Internet-Connection](Internet-Connection/) | Verificação de conexão | ⭐⭐ |
+| 20 | [Json](Json/) | Manipulação de JSON | ⭐⭐⭐ |
+| 21 | [Loop-Interval](Loop-Interval/) | Intervalos em loops | ⭐⭐ |
+| 22 | [Memory](Memory/) | Gerenciamento de memória | ⭐⭐⭐⭐ |
+| 23 | [Miscellaneous](Miscellaneous/) | Projetos diversos | ⭐⭐ |
+| 24 | [My-IP](My-IP/) | Obtenção de IP local | ⭐⭐ |
+| 25 | [Network](Network/) | Programação de rede | ⭐⭐⭐ |
+| 26 | [Observer](Observer/) | Padrão Observer | ⭐⭐⭐ |
+| 27 | [Open-Weather-Map](Open-Weather-Map/) | Cliente de API de clima | ⭐⭐⭐ |
+| 28 | [Optimization-Tips](Optimization-Tips/) | Dicas de otimização | ⭐⭐⭐ |
+| 29 | [Preprocessors](Preprocessors/) | Preprocessadores C | ⭐⭐⭐ |
+| 30 | [Serial-Listener](Serial-Listener/) | Comunicação serial | ⭐⭐⭐ |
+| 31 | [Shared-Hashtable](Shared-Hashtable/) | Tabela hash compartilhada | ⭐⭐⭐ |
+| 32 | [Time](Time/) | Manipulação de tempo | ⭐⭐ |
+| 33 | [Union](Union/) | Unions em C | ⭐⭐ |
+| 34 | [USB](USB/) | Operações com USB | ⭐⭐⭐ |
+| 35 | [Word_Counter](Word_Counter/) | Contador de palavras | ⭐⭐ |
+| 36 | [X11](X11/) | Interface gráfica X11 | ⭐⭐⭐⭐ |
+
+---
 
 ## 🎯 Objetivo
 
