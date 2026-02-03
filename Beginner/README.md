@@ -16,6 +16,10 @@ Este diretório contém exemplos fundamentais para iniciantes em programação C
 **Conceito**: Manipulação básica de strings
 **Nível**: ⭐ Iniciante
 
+### 🔄 [`Swap/`](Swap/)
+**Conceito**: Métodos para trocar valores entre variáveis inteiras usando diferentes abordagens (temporária, aritmética e bitwise)
+**Nível**: ⭐ Iniciante
+
 ## 🎯 Objetivos de Aprendizado
 
 - **Algoritmos Básicos**: Implementação de lógica simples
@@ -38,6 +42,7 @@ Este diretório contém exemplos fundamentais para iniciantes em programação C
 | **Operações Matemáticas** | `inverter-numero.cpp` | ⭐ |
 | **Controle de Fluxo** | `Goto/` | ⭐ |
 | **Manipulação de Strings** | `Strings/` | ⭐ |
+| **Troca de Variáveis** | `Swap/` | ⭐ |
 
 ## 🛠️ Compilação Geral
 
