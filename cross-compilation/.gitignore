@@ -1,0 +1,41 @@
+# Build artifacts
+bin/
+obj/
+*.o
+*.a
+*.so
+*.exe
+*.dll
+
+# Debug files
+*.dSYM/
+*.su
+*.gch
+*.pch
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
+.cache/
+
+# Windows specific
+Thumbs.db
+desktop.ini
+
+# Linux specific
+.directory
+
+# Dependencies
+*.dep
+*.d
+
+# vim swap files
+.*.sw[op]
