@@ -48,6 +48,15 @@ Este repositório contém uma coleção educacional abrangente de programas e ex
 | 34 | [USB](USB/) | Operações com USB | ⭐⭐⭐ |
 | 35 | [Word_Counter](Word_Counter/) | Contador de palavras | ⭐⭐ |
 | 36 | [X11](X11/) | Interface gráfica X11 | ⭐⭐⭐⭐ |
+| 37 | [cross-compilation](cross-compilation/) | Ferramentas e configurações para compilação cruzada (MinGW, toolchains) | ⭐⭐ |
+| 38 | [data-structures](data-structures/) | Implementações e exemplos de estruturas de dados | ⭐⭐⭐ |
+| 39 | [Docs](Docs/) | Documentação complementar e análises | ⭐ |
+| 40 | [filesystem](filesystem/) | Exemplos e utilitários para manipulação de diretórios e arquivos | ⭐⭐ |
+| 41 | [fundamentals](fundamentals/) | Exercícios e exemplos de conceitos fundamentais | ⭐ |
+| 42 | [networking](networking/) | Exemplos adicionais de programação de redes | ⭐⭐ |
+| 43 | [patterns](patterns/) | Padrões de projeto e exemplos (observer, callbacks) | ⭐⭐ |
+| 44 | [screenshot-project](screenshot-project/) | Projeto relacionado a captura/uso de screenshots | ⭐ |
+| 45 | [system](system/) | Integração com funcionalidades do sistema (serial, assembly, tempo) | ⭐⭐⭐ |
 
 ---
 
