@@ -57,6 +57,11 @@ Este repositório contém uma coleção educacional abrangente de programas e ex
 | 43 | [patterns](patterns/) | Padrões de projeto e exemplos (observer, callbacks) | ⭐⭐ |
 | 44 | [screenshot-project](screenshot-project/) | Projeto relacionado a captura/uso de screenshots | ⭐ |
 | 45 | [system](system/) | Integração com funcionalidades do sistema (serial, assembly, tempo) | ⭐⭐⭐ |
+| 46 | [callback](patterns/callback/) | Padrão de design Callback em C | ⭐⭐⭐ |
+| 47 | [optimization](patterns/optimization/) | Técnicas de otimização: loop unrolling, redução de força, localidade de dados | ⭐⭐⭐ |
+| 48 | [c-cobol-banking](system/c-cobol-banking/) | Sistema bancário com integração C/COBOL | ⭐⭐⭐⭐ |
+| 49 | [memset-init](memory/memset-init/) | Exemplos de inicialização de memória com memset | ⭐⭐ |
+| 50 | [network](networking/network/) | Utilitários de rede: sockets, HTTP, cliente/servidor, MAC address | ⭐⭐⭐ |
 
 ---
 
