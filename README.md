@@ -141,23 +141,3 @@ gdb ./programa
 | **Intermediário** | Ponteiros, structs, arrays | ⭐⭐ |
 | **Avançado** | Gerenciamento de memória, networking | ⭐⭐⭐ |
 | **Expert** | Assembly, garbage collection, otimizações | ⭐⭐⭐⭐ |
-
-## 🤝 Contribuindo
-
-1. Faça fork do projeto
-2. Crie uma branch para sua feature
-3. Commit suas mudanças
-4. Push para a branch
-5. Abra um Pull Request
-
-## 📄 Licença
-
-Este projeto é open source e está disponível sob a licença MIT.
-
-## 📞 Contato
-
-Para dúvidas ou sugestões, abra uma issue no repositório.
-
----
-
-💡 **Dica**: Comece pelos exemplos em `beginner/` e avance gradualmente para os tópicos mais complexos!
