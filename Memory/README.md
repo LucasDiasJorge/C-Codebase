@@ -4,27 +4,27 @@ Este diretório explora conceitos avançados de gerenciamento de memória em C, 
 
 ## 📚 Tópicos Abordados
 
-### 🔧 [Malloc](Malloc/)
+### 🔧 [malloc](malloc/)
 **Conceito**: Implementação personalizada de malloc/free  
 **Nível**: ⭐⭐⭐⭐ Avançado  
 **Aprenda**: Como malloc funciona internamente
 
-### 📊 [Memory-Allocation](Memory-Allocation/)
-**Conceito**: Estratégias de alocação dinâmica  
+### 📊 [memset-init](memset-init/)
+**Conceito**: Inicialização e preparação de memória  
 **Nível**: ⭐⭐⭐ Intermediário  
-**Aprenda**: Diferentes técnicas de alocação
+**Aprenda**: Boas práticas de inicialização com `memset`
 
-### 🏊 [Memory-pool](Memory-pool/)
+### 🏊 [memory-pool](memory-pool/)
 **Conceito**: Pool de memória para performance  
 **Nível**: ⭐⭐⭐⭐ Avançado  
 **Aprenda**: Otimização de alocações
 
-### 📈 [Memory-usage](Memory-usage/)
+### 📈 [memory-usage](memory-usage/)
 **Conceito**: Monitoramento de uso de memória  
 **Nível**: ⭐⭐ Intermediário  
 **Aprenda**: Como medir e otimizar uso de memória
 
-### 🎯 [Pointers](Pointers/)
+### 🎯 [pointers](pointers/)
 **Conceito**: Manipulação avançada de ponteiros  
 **Nível**: ⭐⭐⭐ Intermediário  
 **Aprenda**: Ponteiros para ponteiros, arrays de ponteiros

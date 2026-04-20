@@ -9,38 +9,33 @@ Coleção de programas variados que demonstram diferentes técnicas e algoritmos
 ## 📁 Estrutura
 
 ```
-Miscellaneous/
+miscellaneous/
 ├── ascii.c              # Tabela ASCII
 ├── os.c                 # Detecção de sistema operacional
 ├── reverse-number.c     # Inverter número
-├── Anagram/             # Verificador de anagramas
-├── Calculator/          # Calculadora simples
-├── Linus/               # Citações do Linus Torvalds
-├── Random-Generator/    # Gerador de números aleatórios
-└── String/              # Manipulação de strings
+├── calculator/          # Calculadora simples
+├── random-generator/    # Gerador de números aleatórios
+└── string/              # Manipulação de strings
 ```
 
 ## 📚 Programas Incluídos
 
-### 1. [Anagram](Anagram/)
-Verifica se duas strings são anagramas usando contagem de frequência.
-
-### 2. [Calculator](Calculator/)
+### 1. [calculator](calculator/)
 Calculadora de linha de comando com as 4 operações básicas.
 
-### 3. [Random-Generator](Random-Generator/)
+### 2. [random-generator](random-generator/)
 Gerador de números pseudo-aleatórios com seed baseado no tempo.
 
-### 4. [String](String/)
+### 3. [string](string/)
 Funções de manipulação de strings como substituição de caracteres.
 
-### 5. ascii.c
+### 4. ascii.c
 Imprime a tabela ASCII completa.
 
-### 6. os.c
+### 5. os.c
 Detecta o sistema operacional usando macros do preprocessador.
 
-### 7. reverse-number.c
+### 6. reverse-number.c
 Inverte um número inteiro (ex: 123 → 321).
 
 ## 🚀 Compilação
@@ -56,7 +51,6 @@ gcc -o reverse reverse-number.c
 
 | Programa | Conceitos |
 |----------|-----------|
-| Anagram | Arrays, frequência, strings |
 | Calculator | scanf, switch, funções |
 | Random | srand, rand, time |
 | String | Ponteiros, loops |

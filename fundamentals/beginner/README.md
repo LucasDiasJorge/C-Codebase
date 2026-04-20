@@ -8,15 +8,15 @@ Este diretório contém exemplos fundamentais para iniciantes em programação C
 **Conceito**: Algoritmo para inverter dígitos de um número
 **Nível**: ⭐ Iniciante
 
-### 🎯 [`Goto/`](Goto/)
+### 🎯 [`goto/`](goto/)
 **Conceito**: Uso e limitações do comando `goto`
 **Nível**: ⭐ Iniciante
 
-### 📝 [`Strings/`](Strings/)
+### 📝 [`strings/`](strings/)
 **Conceito**: Manipulação básica de strings
 **Nível**: ⭐ Iniciante
 
-### 🔄 [`Swap/`](Swap/)
+### 🔄 [`swap/`](swap/)
 **Conceito**: Métodos para trocar valores entre variáveis inteiras usando diferentes abordagens (temporária, aritmética e bitwise)
 **Nível**: ⭐ Iniciante
 
@@ -31,8 +31,8 @@ Este diretório contém exemplos fundamentais para iniciantes em programação C
 ## 🚀 Como Começar
 
 1. **Inicie pelo** `inverter-numero.cpp` para entender operações básicas
-2. **Explore** o diretório `Strings/` para manipulação de texto
-3. **Estude** o diretório `Goto/` para entender fluxo de controle
+2. **Explore** o diretório `strings/` para manipulação de texto
+3. **Estude** o diretório `goto/` para entender fluxo de controle
 4. **Pratique** modificando os exemplos
 
 ## 📖 Conceitos Fundamentais Abordados
@@ -40,9 +40,9 @@ Este diretório contém exemplos fundamentais para iniciantes em programação C
 | Conceito | Arquivo | Dificuldade |
 |----------|---------|-------------|
 | **Operações Matemáticas** | `inverter-numero.cpp` | ⭐ |
-| **Controle de Fluxo** | `Goto/` | ⭐ |
-| **Manipulação de Strings** | `Strings/` | ⭐ |
-| **Troca de Variáveis** | `Swap/` | ⭐ |
+| **Controle de Fluxo** | `goto/` | ⭐ |
+| **Manipulação de Strings** | `strings/` | ⭐ |
+| **Troca de Variáveis** | `swap/` | ⭐ |
 
 ## 🛠️ Compilação Geral
 

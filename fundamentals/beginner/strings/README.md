@@ -16,7 +16,7 @@ Strings/
 
 ## 📚 Exemplos Incluídos
 
-### 1. [Remove-char](Remove-char/)
+### 1. [Remove-char](remove-char/)
 Remove todas as ocorrências de um caractere específico de uma string.
 
 ```c
@@ -25,7 +25,7 @@ removeChar(mac, ':');
 // Resultado: "XXXXXXXXXXXX"
 ```
 
-### 2. [Starts_with](Starts_with/)
+### 2. [Starts_with](starts-with/)
 Verifica se uma string começa com um determinado prefixo.
 
 ```c

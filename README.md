@@ -12,56 +12,27 @@ Este repositório contém uma coleção educacional abrangente de programas e ex
 
 | # | Módulo | Descrição | Dificuldade |
 |---|--------|-----------|-------------|
-| 1 | [Assembly](Assembly/) | Integração C/Assembly | ⭐⭐⭐⭐ |
-| 2 | [Automatus](Automatus/) | Autômatos finitos (DFA) | ⭐⭐⭐ |
-| 3 | [Backend](Backend/) | Conceitos de backend | ⭐⭐ |
-| 4 | [Beginner](Beginner/) | Conceitos básicos | ⭐ |
-| 5 | [Colored-Output](Colored-Output/) | Terminal colorido | ⭐⭐ |
-| 6 | [Compare](Compare/) | Funções de comparação | ⭐ |
-| 7 | [Conversor-pdf](Conversor-pdf/) | Conversão de documentos | ⭐⭐ |
-| 8 | [Debugging](Debugging/) | Técnicas de debug | ⭐⭐ |
-| 9 | [Dir-return](Dir-return/) | Retorno de diretórios | ⭐⭐ |
-| 10 | [DS-in-bin](DS-in-bin/) | Estruturas em binário | ⭐⭐⭐ |
-| 11 | [Easy-dir](Easy-dir/) | Manipulação de diretórios | ⭐⭐ |
-| 12 | [Enum](Enum/) | Enumerações | ⭐⭐ |
-| 13 | [Event-Driven-Programming](Event-Driven-Programming/) | Programação orientada a eventos | ⭐⭐⭐ |
-| 14 | [Files](Files/) | Manipulação de arquivos | ⭐⭐ |
-| 15 | [Function](Function/) | Funções avançadas | ⭐⭐ |
-| 16 | [Garbage-Collector](Garbage-Collector/) | Coletor de lixo | ⭐⭐⭐⭐ |
-| 17 | [GCC](GCC/) | Otimizações do compilador | ⭐⭐⭐ |
-| 18 | [Hash](Hash/) | Algoritmos de hash | ⭐⭐⭐ |
-| 19 | [Internet-Connection](Internet-Connection/) | Verificação de conexão | ⭐⭐ |
-| 20 | [Json](Json/) | Manipulação de JSON | ⭐⭐⭐ |
-| 21 | [Loop-Interval](Loop-Interval/) | Intervalos em loops | ⭐⭐ |
-| 22 | [Memory](Memory/) | Gerenciamento de memória | ⭐⭐⭐⭐ |
-| 23 | [Miscellaneous](Miscellaneous/) | Projetos diversos | ⭐⭐ |
-| 24 | [My-IP](My-IP/) | Obtenção de IP local | ⭐⭐ |
-| 25 | [Network](Network/) | Programação de rede | ⭐⭐⭐ |
-| 26 | [Observer](Observer/) | Padrão Observer | ⭐⭐⭐ |
-| 27 | [Open-Weather-Map](Open-Weather-Map/) | Cliente de API de clima | ⭐⭐⭐ |
-| 28 | [Optimization-Tips](Optimization-Tips/) | Dicas de otimização | ⭐⭐⭐ |
-| 29 | [Preprocessors](Preprocessors/) | Preprocessadores C | ⭐⭐⭐ |
-| 30 | [Serial-Listener](Serial-Listener/) | Comunicação serial | ⭐⭐⭐ |
-| 31 | [Shared-Hashtable](Shared-Hashtable/) | Tabela hash compartilhada | ⭐⭐⭐ |
-| 32 | [Time](Time/) | Manipulação de tempo | ⭐⭐ |
-| 33 | [Union](Union/) | Unions em C | ⭐⭐ |
-| 34 | [USB](USB/) | Operações com USB | ⭐⭐⭐ |
-| 35 | [Word_Counter](Word_Counter/) | Contador de palavras | ⭐⭐ |
-| 36 | [X11](X11/) | Interface gráfica X11 | ⭐⭐⭐⭐ |
-| 37 | [cross-compilation](cross-compilation/) | Ferramentas e configurações para compilação cruzada (MinGW, toolchains) | ⭐⭐ |
-| 38 | [data-structures](data-structures/) | Implementações e exemplos de estruturas de dados | ⭐⭐⭐ |
-| 39 | [Docs](Docs/) | Documentação complementar e análises | ⭐ |
-| 40 | [filesystem](filesystem/) | Exemplos e utilitários para manipulação de diretórios e arquivos | ⭐⭐ |
-| 41 | [fundamentals](fundamentals/) | Exercícios e exemplos de conceitos fundamentais | ⭐ |
-| 42 | [networking](networking/) | Exemplos adicionais de programação de redes | ⭐⭐ |
-| 43 | [patterns](patterns/) | Padrões de projeto e exemplos (observer, callbacks) | ⭐⭐ |
-| 44 | [screenshot-project](screenshot-project/) | Projeto relacionado a captura/uso de screenshots | ⭐ |
-| 45 | [system](system/) | Integração com funcionalidades do sistema (serial, assembly, tempo) | ⭐⭐⭐ |
-| 46 | [callback](patterns/callback/) | Padrão de design Callback em C | ⭐⭐⭐ |
-| 47 | [optimization](patterns/optimization/) | Técnicas de otimização: loop unrolling, redução de força, localidade de dados | ⭐⭐⭐ |
-| 48 | [c-cobol-banking](system/c-cobol-banking/) | Sistema bancário com integração C/COBOL | ⭐⭐⭐⭐ |
-| 49 | [memset-init](memory/memset-init/) | Exemplos de inicialização de memória com memset | ⭐⭐ |
-| 50 | [network](networking/network/) | Utilitários de rede: sockets, HTTP, cliente/servidor, MAC address | ⭐⭐⭐ |
+| 1 | [beginner](beginner/) | Conceitos básicos e manipulação inicial de strings | ⭐ |
+| 2 | [conversor-pdf](conversor-pdf/) | Conversão e processamento de documentos | ⭐⭐ |
+| 3 | [cross-compilation](cross-compilation/) | Ferramentas para compilação cruzada (MinGW/toolchains) | ⭐⭐ |
+| 4 | [data-structures](data-structures/) | Implementações e exemplos de estruturas de dados | ⭐⭐⭐ |
+| 5 | [docs](docs/) | Documentação complementar e análises | ⭐ |
+| 6 | [files](files/) | Exemplos de manipulação de arquivos | ⭐⭐ |
+| 7 | [filesystem](filesystem/) | Utilitários de diretórios, arquivos e contagem de palavras | ⭐⭐ |
+| 8 | [function](function/) | Exemplos de funções e organização de código | ⭐⭐ |
+| 9 | [fundamentals](fundamentals/) | Exercícios e conceitos fundamentais da linguagem C | ⭐ |
+| 10 | [json](json/) | Manipulação e utilitários de JSON | ⭐⭐⭐ |
+| 11 | [memory](memory/) | Gerenciamento de memória e ponteiros | ⭐⭐⭐⭐ |
+| 12 | [miscellaneous](miscellaneous/) | Projetos diversos (calculadora, strings, aleatoriedade) | ⭐⭐ |
+| 13 | [network](network/) | Exemplos de rede (init-variable, envio de arquivo) | ⭐⭐⭐ |
+| 14 | [networking](networking/) | Exemplos adicionais de programação de rede e backend | ⭐⭐ |
+| 15 | [optimization-tips](optimization-tips/) | Dicas de otimização (ex.: localidade de dados) | ⭐⭐⭐ |
+| 16 | [patterns](patterns/) | Padrões e coleções de exemplos práticos | ⭐⭐ |
+| 17 | [preprocessors](preprocessors/) | Exemplos de preprocessadores em C | ⭐⭐⭐ |
+| 18 | [screenshot-project](screenshot-project/) | Projeto relacionado a captura/uso de screenshots | ⭐ |
+| 19 | [system](system/) | Integração com recursos de sistema (assembly, serial, USB, X11) | ⭐⭐⭐ |
+| 20 | [time](time/) | Manipulação de tempo e timestamp | ⭐⭐ |
+| 21 | [usb](usb/) | Operações e exemplos com USB | ⭐⭐⭐ |
 
 ---
 
@@ -83,114 +54,57 @@ Cada diretório contém:
 
 ## 🗂️ Estrutura do Projeto
 
-### 🔰 **Beginner** - Conceitos Básicos
-- **Inverter Número**: Algoritmos básicos de manipulação numérica
-- **Goto**: Uso do comando goto (com explicações sobre quando evitar)
-- **Strings**: Manipulação básica de strings
+### 🔰 **beginner** - Conceitos Básicos
+- [strings](beginner/strings/) com exemplos de remoção de caracteres e prefixos.
 
-### 🤖 **Automatus** - Autômatos Finitos (DFA)
-- Exemplo de autômato finito determinístico para reconhecer tokens/palavras (por exemplo: `for`, `float`, `char`)
+### 🧪 **fundamentals** - Base da Linguagem C
+- [beginner](fundamentals/beginner/), [function](fundamentals/function/), [preprocessors](fundamentals/preprocessors/), [enum](fundamentals/enum/) e [union](fundamentals/union/).
 
-### 🧠 **Memory** - Gerenciamento de Memória
-- **Malloc**: Implementação personalizada de alocador de memória
-- **Memory-Allocation**: Técnicas de alocação dinâmica
-- **Memory-pool**: Pool de memória para otimização
-- **Memory-usage**: Monitoramento de uso de memória
-- **Pointers**: Manipulação avançada de ponteiros
+### 🧠 **memory** - Gerenciamento de Memória
+- [malloc](memory/malloc/), [memory-pool](memory/memory-pool/), [memory-usage](memory/memory-usage/), [memset-init](memory/memset-init/) e [pointers](memory/pointers/).
 
-### 🌐 **Network** - Programação de Rede
-- **Socket-request**: Cliente socket básico
-- **Handle-Client**: Servidor para múltiplos clientes
-- **HTTP**: Manipulação de protocolos HTTP
-- **Mac-Address**: Obtenção de endereço MAC
+### 🌐 **Rede**
+- [network](network/) para exemplos iniciais.
+- [networking](networking/) para backend, event-driven, internet-check e cliente de clima.
 
-### 📁 **Files** - Manipulação de Arquivos
-- **Create**: Criação de arquivos
-- **Delete**: Remoção de arquivos
-- **Reader**: Leitura de diferentes tipos de arquivo
-- **Properties**: Manipulação de arquivos de configuração
-- **Stats**: Estatísticas de arquivos
+### 📁 **Arquivos e Diretórios**
+- [files](files/) e [filesystem](filesystem/) com operações práticas de criação, remoção e leitura.
 
-### ⚙️ **Assembly** - Interface C/Assembly
-- **Method-1**: Integração básica C/Assembly
-- **Method-2**: Técnicas avançadas de integração
+### 🧩 **patterns** - Padrões e Coleções de Exemplos
+- [observer](patterns/observer/), [callback](patterns/callback/), [optimization](patterns/optimization/) e módulos auxiliares.
 
-### 🏗️ **Design Patterns** - Padrões de Projeto
-- **Observer**: Implementação do padrão Observer em C
+### ⚙️ **system** - Integrações de Sistema
+- [assembly](system/assembly/), [serial-listener](system/serial-listener/), [usb](system/usb/) e [x11](system/x11/).
 
-### 🔧 **Advanced Topics** - Tópicos Avançados
-- **Garbage-Collector**: Coletor de lixo personalizado
-- **Hash**: Implementação de tabelas hash
-- **Union**: Uso avançado de unions
-- **Enum**: Enumerações e suas aplicações
+### 🛠️ **Ferramentas e Build**
+- [cross-compilation](cross-compilation/), [optimization-tips](optimization-tips/), [preprocessors](preprocessors/) e [screenshot-project](screenshot-project/).
 
-### 🛠️ **Utilities** - Utilitários
-- **Debugging**: Técnicas de debug
-- **Preprocessors**: Uso avançado de preprocessadores
-- **GCC**: Otimizações do compilador
-- **Optimization-Tips**: Dicas de otimização
-
-### 🎨 **Miscellaneous** - Diversos
-- **Colored-Output**: Saída colorida no terminal
-- **Calculator**: Implementação de calculadora
-- **JSON**: Manipulação de JSON em C
-- **Time**: Manipulação de tempo e timestamps
+### 📚 **Outros Módulos Importantes**
+- [data-structures](data-structures/), [json](json/), [miscellaneous](miscellaneous/), [time](time/), [usb](usb/) e [docs](docs/).
 
 ## 📋 Índice de Navegação Rápida
 
-### 🔰 Para Iniciantes
-- **[Beginner/](Beginner/)** - Conceitos básicos e primeiros programas
-  - [Inverter Número](Beginner/inverter-numero-README.md) - Algoritmos matemáticos básicos
-  - [Goto](Beginner/Goto/) - Comando goto e suas limitações
-  - [Strings](Beginner/Strings/) - Manipulação básica de strings
-
-### 🤖 Autômatos
-- **[Automatus/](Automatus/)** - Autômato finito determinístico (DFA) em C
-
-### 🧠 Gerenciamento de Memória
-- **[Memory/](Memory/)** - Técnicas avançadas de gerenciamento de memória
-  - [Malloc Personalizado](Memory/Malloc/) - Implementação de alocador customizado
-  - [Memory Pool](Memory/Memory-pool/) - Pool de memória para performance
-  - [Ponteiros Avançados](Memory/Pointers/) - Manipulação complexa de ponteiros
-
-### 🌐 Programação de Rede
-- **[Network/](Network/)** - Sockets e comunicação de rede
-  - [Socket Client](Network/socket-request/) - Cliente TCP com HTTP
-  - [Servidor Multi-cliente](Network/Handle-Client/) - Concorrência em servidores
-  - [HTTP Headers](Network/http-header/) - Manipulação de protocolos web
-
-### 🔧 Assembly e Baixo Nível
-- **[Assembly/](Assembly/)** - Integração C/Assembly
-  - [Inline Assembly](Assembly/method-1/) - Assembly embutido no C
-  - [Assembly Externo](Assembly/method-2/) - Funções Assembly separadas
-
-### 📁 Manipulação de Arquivos
-- **[Files/](Files/)** - I/O e sistema de arquivos
-  - [Criação de Arquivos](Files/Create/) - Criação e escrita de arquivos
-  - [Leitura de Arquivos](Files/Reader/) - Técnicas de leitura
-  - [Propriedades](Files/Properties/) - Metadados e atributos
-
-### 🎯 Padrões de Projeto
-- **[Observer/](Observer/)** - Padrão Observer em C
-- **[Shared-Hashtable/](Shared-Hashtable/)** - Hashtable compartilhada
-- **[Enum/](Enum/)** - Enumerações avançadas
-- **[Union/](Union/)** - Unions e otimização de memória
-
-### 🔐 Criptografia e Hash
-- **[Hash/](Hash/)** - Algoritmos de hash SHA-256
-- **[Garbage-Collector/](Garbage-Collector/)** - Coletor de lixo personalizado
-
-### 🛠️ Ferramentas e Utilitários
-- **[Debugging/](Debugging/)** - Técnicas de debug
-- **[GCC/](GCC/)** - Otimizações do compilador
-- **[Preprocessors/](Preprocessors/)** - Uso avançado de preprocessadores
-- **[Optimization-Tips/](Optimization-Tips/)** - Dicas de otimização
-
-### 🎨 Projetos Diversos
-- **[Colored-Output/](Colored-Output/)** - Saída colorida no terminal
-- **[JSON/](Json/)** - Manipulação de JSON em C
-- **[Time/](Time/)** - Manipulação de tempo e timestamps
-- **[Miscellaneous/](Miscellaneous/)** - Projetos variados e utilitários
+- [beginner/](beginner/) - Conceitos básicos.
+- [conversor-pdf/](conversor-pdf/) - Conversão de documentos.
+- [cross-compilation/](cross-compilation/) - Toolchains e compilação cruzada.
+- [data-structures/](data-structures/) - Estruturas de dados.
+- [docs/](docs/) - Documentação e análises.
+- [files/](files/) - Manipulação de arquivos.
+- [filesystem/](filesystem/) - Diretórios e utilitários de sistema de arquivos.
+- [function/](function/) - Funções e exemplos relacionados.
+- [fundamentals/](fundamentals/) - Base da linguagem C.
+- [json/](json/) - Utilitários de JSON.
+- [memory/](memory/) - Alocação, ponteiros e otimizações.
+- [miscellaneous/](miscellaneous/) - Projetos diversos.
+- [network/](network/) - Exemplos iniciais de rede.
+- [networking/](networking/) - Networking avançado e backend.
+- [optimization-tips/](optimization-tips/) - Dicas de performance.
+- [patterns/](patterns/) - Padrões e coleções temáticas.
+- [preprocessors/](preprocessors/) - Macros e preprocessamento.
+- [screenshot-project/](screenshot-project/) - Projeto de screenshot.
+- [system/](system/) - Integrações de baixo nível/sistema.
+- [time/](time/) - Manipulação de tempo.
+- [usb/](usb/) - Operações com USB.
 
 ## 🚀 Começando
 
@@ -246,4 +160,4 @@ Para dúvidas ou sugestões, abra uma issue no repositório.
 
 ---
 
-💡 **Dica**: Comece pelos exemplos em `Beginner/` e avance gradualmente para os tópicos mais complexos!
+💡 **Dica**: Comece pelos exemplos em `beginner/` e avance gradualmente para os tópicos mais complexos!

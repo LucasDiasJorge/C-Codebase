@@ -9,29 +9,28 @@ JSON (JavaScript Object Notation) é um formato de dados leve amplamente usado p
 ## 📁 Estrutura
 
 ```
-Json/
-├── Lib/               # Biblioteca JSON manual
-├── List-manipulation/ # Processamento de arrays JSON
-└── Simple/            # Exemplos com cJSON
+json/
+├── lib/               # Biblioteca JSON manual
+└── list-manipulation/ # Processamento de arrays JSON
 ```
 
 ## 📚 Exemplos Incluídos
 
-### 1. [Lib](Lib/)
+### 1. [lib](lib/)
 Implementação manual de uma estrutura JSON usando lista encadeada.
 - Criação de objetos JSON
 - Adição de pares chave-valor
 - Busca por chave
 - Serialização simples
 
-### 2. [List-manipulation](List-manipulation/)
+### 2. [list-manipulation](list-manipulation/)
 Processamento de arrays JSON recebidos via HTTP.
 - Requisição HTTP com libcurl
 - Tokenização de arrays JSON
 - Extração de elementos
 
-### 3. [Simple](Simple/)
-Exemplos usando a biblioteca cJSON.
+### 3. [simple (referência)](../data-structures/json/simple/)
+Exemplos usando a biblioteca cJSON (neste repositório, localizados em `data-structures/json/simple/`).
 - Parse de JSON de arquivo
 - Parse de JSON de string
 - Acesso a campos

@@ -9,29 +9,29 @@ Coleção de programas variados que demonstram diferentes técnicas e algoritmos
 ## 📁 Estrutura
 
 ```
-Miscellaneous/
+miscellaneous/
 ├── ascii.c              # Tabela ASCII
 ├── os.c                 # Detecção de sistema operacional
 ├── reverse-number.c     # Inverter número
-├── Anagram/             # Verificador de anagramas
-├── Calculator/          # Calculadora simples
-├── Linus/               # Citações do Linus Torvalds
-├── Random-Generator/    # Gerador de números aleatórios
-└── String/              # Manipulação de strings
+├── anagram/             # Verificador de anagramas
+├── calculator/          # Calculadora simples
+├── linus/               # Citações do Linus Torvalds
+├── random-generator/    # Gerador de números aleatórios
+└── string/              # Manipulação de strings
 ```
 
 ## 📚 Programas Incluídos
 
-### 1. [Anagram](Anagram/)
+### 1. [anagram](anagram/)
 Verifica se duas strings são anagramas usando contagem de frequência.
 
-### 2. [Calculator](Calculator/)
+### 2. [calculator](calculator/)
 Calculadora de linha de comando com as 4 operações básicas.
 
-### 3. [Random-Generator](Random-Generator/)
+### 3. [random-generator](random-generator/)
 Gerador de números pseudo-aleatórios com seed baseado no tempo.
 
-### 4. [String](String/)
+### 4. [string](string/)
 Funções de manipulação de strings como substituição de caracteres.
 
 ### 5. ascii.c

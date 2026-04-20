@@ -9,14 +9,14 @@ Demonstrações de recursos avançados de funções em C, incluindo ponteiros de
 ## 📁 Estrutura
 
 ```
-Function/
-├── pointers/    # Ponteiros de função
-└── stdarg/      # Funções com argumentos variáveis (variadic)
+function/
+├── README.md    # Guia do módulo
+└── (exemplos em fundamentals/function/)
 ```
 
 ## 📚 Tópicos Incluídos
 
-### 1. [pointers](pointers/)
+### 1. [pointers](../fundamentals/function/pointers/)
 Ponteiros de função permitem tratar funções como dados, possibilitando callbacks, tabelas de funções e polimorfismo em C.
 
 ```c
@@ -30,7 +30,7 @@ operation = add;
 int result = operation(5, 3);  // 8
 ```
 
-### 2. [stdarg](stdarg/)
+### 2. [stdarg](../fundamentals/function/stdarg/)
 Funções variadic aceitam número variável de argumentos, como `printf()`.
 
 ```c

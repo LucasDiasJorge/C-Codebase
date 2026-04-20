@@ -10,13 +10,12 @@ Implementações de transferência de arquivos usando diferentes protocolos e te
 
 ```
 send-file/
-├── Sockets/    # Servidor HTTP usando sockets TCP
-└── SSH/        # Transferência via SCP/SSH
+└── README.md   # Guia e referências para implementações
 ```
 
 ## 📚 Métodos Incluídos
 
-### 1. [Sockets](Sockets/)
+### 1. [sockets](../../networking/network/send-file/sockets/)
 Servidor HTTP mínimo que serve arquivos estáticos usando a syscall `sendfile()` para transferência eficiente zero-copy.
 
 **Características:**
@@ -24,7 +23,7 @@ Servidor HTTP mínimo que serve arquivos estáticos usando a syscall `sendfile()
 - Função `sendfile()` para performance
 - Serve arquivos HTML
 
-### 2. [SSH](SSH/)
+### 2. [ssh](../../networking/network/send-file/ssh/)
 Cliente SCP que transfere arquivos de forma segura via SSH usando a biblioteca libssh.
 
 **Características:**

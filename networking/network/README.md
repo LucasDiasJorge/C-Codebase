@@ -9,7 +9,7 @@ Este diretório explora programação de sockets e comunicação de rede em C, d
 **Nível**: ⭐⭐⭐ Intermediário  
 **Aprenda**: Sockets, TCP/IP, HTTP básico
 
-### 👥 [Handle-Client](Handle-Client/)
+### 👥 [handle-client](handle-client/)
 **Conceito**: Servidor multi-cliente  
 **Nível**: ⭐⭐⭐⭐ Avançado  
 **Aprenda**: Concorrência, fork(), threads
@@ -24,7 +24,7 @@ Este diretório explora programação de sockets e comunicação de rede em C, d
 **Nível**: ⭐⭐⭐⭐ Avançado  
 **Aprenda**: Chunked transfer, streaming
 
-### 🏷️ [Mac-Address](Mac-Address/)
+### 🏷️ [mac-address](mac-address/)
 **Conceito**: Obter endereço MAC da interface  
 **Nível**: ⭐⭐ Intermediário  
 **Aprenda**: Interfaces de rede, ioctl()
