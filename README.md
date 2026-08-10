@@ -1,9 +1,5 @@
 # 📚 C Programming Codebase
 
-[![Language](https://img.shields.io/badge/Language-C-blue.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-
 Este repositório contém uma coleção educacional abrangente de programas e exemplos em linguagem C, cobrindo conceitos fundamentais e avançados da programação em C. O código está organizado didaticamente em diferentes diretórios, cada um focando em tópicos específicos como gerenciamento de memória, manipulação de arquivos, programação de rede, estruturas de dados e muito mais.
 
 ---
